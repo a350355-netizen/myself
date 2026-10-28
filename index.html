@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>蔡雨潔 | 數位商管跨領域人才</title>
+  <meta name="description" content="蔡雨潔的個人自我介紹網站 — 就讀南山中學，對商業經營、電子商務與智慧科技充滿熱情的學生。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating Particles Background -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">✦</span>
+      <span>蔡雨潔</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link active" id="nav-hero">首頁</a></li>
+      <li><a href="#about" class="nav-link" id="nav-about">關於我</a></li>
+      <li><a href="#skills" class="nav-link" id="nav-skills">專業技能</a></li>
+      <li><a href="#interests" class="nav-link" id="nav-interests">興趣領域</a></li>
+      <li><a href="#goals" class="nav-link" id="nav-goals">未來展望</a></li>
+      <li><a href="#contact" class="nav-link" id="nav-contact">聯絡我</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="開啟選單">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-image"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-ring"></div>
+        <div class="hero-avatar-ring ring2"></div>
+        <img src="avatar_portrait_1793166302287.png" alt="蔡雨潔頭像" class="hero-avatar" id="heroAvatar" />
+        <div class="hero-badge">🎓</div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-greeting" id="heroGreeting">你好，我是</p>
+        <h1 class="hero-name" id="heroName">蔡雨潔</h1>
+        <div class="hero-typewriter-wrap">
+          <span class="hero-typewriter" id="heroTypewriter"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-school" id="heroSchool">
+          <span class="school-icon">🏫</span>
+          新北市中和 · 南山中學
+        </p>
+        <div class="hero-tags" id="heroTags">
+          <span class="tag tag-purple">💼 商業經營</span>
+          <span class="tag tag-blue">🛒 電子商務</span>
+          <span class="tag tag-teal">🤖 智慧科技</span>
+        </div>
+        <div class="hero-cta" id="heroCta">
+          <a href="#about" class="btn btn-primary">了解更多 ↓</a>
+          <a href="#contact" class="btn btn-ghost">聯絡我</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scrollIndicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">ABOUT ME</span>
+        <h2 class="section-title">關於我</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card card-animate" id="aboutCard1">
+          <div class="about-card-icon">🎯</div>
+          <h3>我的身份</h3>
+          <p>就讀於位於新北市中和的<strong>南山中學</strong>，是一位對未來充滿期待與熱情的青年學子。在智光商工的課程洗禮下，我正逐步建立自己的專業知識體系。</p>
+        </div>
+        <div class="about-card card-animate" id="aboutCard2">
+          <div class="about-card-icon">💡</div>
+          <h3>我的熱情</h3>
+          <p>對<strong>商業經營</strong>、<strong>電子商務</strong>與<strong>智慧科技</strong>充滿好奇與熱情！我相信數位化時代下，結合商業思維與科技應用，是開創未來的最佳路徑。</p>
+        </div>
+        <div class="about-card card-animate" id="aboutCard3">
+          <div class="about-card-icon">🌱</div>
+          <h3>我的方向</h3>
+          <p>我的目標是成為一位<strong>全方位數位商管跨領域人才</strong>，能夠在商業策略、數位行銷、金融分析與科技應用之間自由穿梭，創造獨特的個人價值。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">SKILLS</span>
+        <h2 class="section-title">專業技能</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card card-animate" id="skillCard1">
+          <div class="skill-icon-wrap" style="--clr: #a78bfa">
+            <span class="skill-icon">📄</span>
+          </div>
+          <h3>文書處理</h3>
+          <p>熟悉 Microsoft Office 套件，能夠高效率地完成報告撰寫、資料整理與簡報製作。</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--pct: 82%; --clr: #a78bfa" id="bar1"></div>
+          </div>
+          <span class="skill-pct">82%</span>
+        </div>
+
+        <div class="skill-card card-animate" id="skillCard2">
+          <div class="skill-icon-wrap" style="--clr: #60a5fa">
+            <span class="skill-icon">⌨️</span>
+          </div>
+          <h3>打字指法</h3>
+          <p>透過系統化的指法訓練，培養正確的打字姿勢與速度，提升工作效率。</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--pct: 75%; --clr: #60a5fa" id="bar2"></div>
+          </div>
+          <span class="skill-pct">75%</span>
+        </div>
+
+        <div class="skill-card card-animate" id="skillCard3">
+          <div class="skill-icon-wrap" style="--clr: #34d399">
+            <span class="skill-icon">💰</span>
+          </div>
+          <h3>金融專業</h3>
+          <p>學習金融基礎概念、財務報表分析與投資理財知識，建立商業財務思維。</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--pct: 70%; --clr: #34d399" id="bar3"></div>
+          </div>
+          <span class="skill-pct">70%</span>
+        </div>
+
+        <div class="skill-card card-animate" id="skillCard4">
+          <div class="skill-icon-wrap" style="--clr: #f472b6">
+            <span class="skill-icon">🌐</span>
+          </div>
+          <h3>網頁開發</h3>
+          <p>學習 HTML、CSS 等前端技術，能夠設計並建立基本的網頁介面與互動效果。</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--pct: 68%; --clr: #f472b6" id="bar4"></div>
+          </div>
+          <span class="skill-pct">68%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interests Section -->
+  <section class="section" id="interests">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">INTERESTS</span>
+        <h2 class="section-title">興趣領域</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="interests-grid">
+
+        <div class="interest-item card-animate" id="intItem1">
+          <div class="interest-bg" style="--g1: #7c3aed; --g2: #4f46e5"></div>
+          <div class="interest-content">
+            <div class="interest-emoji">💼</div>
+            <h3>商業經營</h3>
+            <p>對企業策略、市場分析與商業模式充滿好奇，喜歡研究成功企業的經營之道。</p>
+            <div class="interest-tags">
+              <span>策略管理</span>
+              <span>市場分析</span>
+              <span>品牌經營</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="interest-item card-animate" id="intItem2">
+          <div class="interest-bg" style="--g1: #0891b2; --g2: #0e7490"></div>
+          <div class="interest-content">
+            <div class="interest-emoji">🛒</div>
+            <h3>電子商務</h3>
+            <p>熱衷於研究線上購物平台、數位行銷策略與消費者行為，了解電商生態系。</p>
+            <div class="interest-tags">
+              <span>數位行銷</span>
+              <span>平台操作</span>
+              <span>消費分析</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="interest-item card-animate" id="intItem3">
+          <div class="interest-bg" style="--g1: #059669; --g2: #047857"></div>
+          <div class="interest-content">
+            <div class="interest-emoji">🤖</div>
+            <h3>智慧科技</h3>
+            <p>對人工智慧、大數據分析與物聯網應用充滿興趣，關注科技如何改變商業模式。</p>
+            <div class="interest-tags">
+              <span>人工智慧</span>
+              <span>大數據</span>
+              <span>物聯網</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="interest-item card-animate" id="intItem4">
+          <div class="interest-bg" style="--g1: #b45309; --g2: #92400e"></div>
+          <div class="interest-content">
+            <div class="interest-emoji">📊</div>
+            <h3>金融理財</h3>
+            <p>學習基礎投資概念、理財規劃與金融市場知識，培養正確的財務管理觀念。</p>
+            <div class="interest-tags">
+              <span>投資理財</span>
+              <span>財務規劃</span>
+              <span>金融市場</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Goals / Timeline Section -->
+  <section class="section section-dark" id="goals">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FUTURE GOALS</span>
+        <h2 class="section-title">未來展望</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item card-animate" id="tlItem1">
+          <div class="timeline-dot" style="--clr: #a78bfa">
+            <span>1</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge">現在</div>
+            <h3>🎓 持續精進課業</h3>
+            <p>在南山中學努力學習各項商管專業知識，打好文書、金融、網頁開發的基礎。積極參與課程活動，培養多元能力。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item card-animate" id="tlItem2">
+          <div class="timeline-dot" style="--clr: #60a5fa">
+            <span>2</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge">近期目標</div>
+            <h3>🏆 取得專業證照</h3>
+            <p>計畫考取 MOS（微軟辦公室認證）、金融相關證照，及電腦技能檢定，以實際資格驗證自己的學習成果。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item card-animate" id="tlItem3">
+          <div class="timeline-dot" style="--clr: #34d399">
+            <span>3</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge">進修規劃</div>
+            <h3>🎯 升讀商管相關科系</h3>
+            <p>規劃報考商業管理、電子商務、資訊管理等相關科系，在大學階段深化理論與實務知識，並尋求實習機會。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item card-animate" id="tlItem4">
+          <div class="timeline-dot" style="--clr: #fbbf24">
+            <span>4</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge">長遠夢想</div>
+            <h3>🚀 成為跨領域數位商管人才</h3>
+            <p>夢想成為能夠整合商業思維、科技應用與數位行銷的全方位人才，在電子商務或智慧科技產業中發光發熱！</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">CONTACT</span>
+        <h2 class="section-title">聯絡我</h2>
+        <div class="section-line"></div>
+        <p class="section-desc">有任何合作機會或學習交流，歡迎與我聯繫！</p>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info card-animate" id="contactInfo">
+          <div class="contact-item" id="contactSchool">
+            <div class="contact-icon" style="--clr:#a78bfa">🏫</div>
+            <div>
+              <span class="contact-label">就讀學校</span>
+              <span class="contact-value">南山中學（新北市中和）</span>
+            </div>
+          </div>
+          <div class="contact-item" id="contactField">
+            <div class="contact-icon" style="--clr:#60a5fa">📚</div>
+            <div>
+              <span class="contact-label">學習領域</span>
+              <span class="contact-value">智光商工課程 · 商管專業</span>
+            </div>
+          </div>
+          <div class="contact-item" id="contactPassion">
+            <div class="contact-icon" style="--clr:#34d399">💡</div>
+            <div>
+              <span class="contact-label">熱情所在</span>
+              <span class="contact-value">商業 × 電商 × 智慧科技</span>
+            </div>
+          </div>
+          <div class="contact-item" id="contactGoal">
+            <div class="contact-icon" style="--clr:#fbbf24">🎯</div>
+            <div>
+              <span class="contact-label">目標志向</span>
+              <span class="contact-value">全方位數位商管跨領域人才</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form card-animate" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="senderName">您的姓名</label>
+            <input type="text" id="senderName" name="senderName" placeholder="請輸入您的姓名" required />
+          </div>
+          <div class="form-group">
+            <label for="senderEmail">電子郵件</label>
+            <input type="email" id="senderEmail" name="senderEmail" placeholder="example@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">留言內容</label>
+            <textarea id="message" name="message" placeholder="歡迎留言交流！" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span id="btnText">✉️ 送出留言</span>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <span>🎉 感謝您的留言！我會盡快回覆您。</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="brand-icon">✦</span>
+        <span>蔡雨潔</span>
+      </div>
+      <p class="footer-tagline">數位商管跨領域人才 · 南山中學</p>
+      <p class="footer-copy">© 2026 蔡雨潔. All rights reserved. Made with ❤️ and passion for technology.</p>
+    </div>
+    <div class="footer-glow"></div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
